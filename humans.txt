@@ -1,0 +1,18 @@
+/* TEAM */
+Founder & Product Strategy: YatraMaker Team
+Website: https://yatramaker.com
+
+/* SITE */
+Domain: blog.yatramaker.com
+Purpose: Budget-based travel discovery and planning for India
+Tech: Static HTML, CSS
+Hosting: Vercel
+Country: India
+
+/* PHILOSOPHY */
+Travel decisions should start with budget, not destinations.
+YatraMaker helps people discover where they can travel comfortably,
+without overspending or uncertainty.
+
+/* CONTACT */
+https://yatramaker.com/contact

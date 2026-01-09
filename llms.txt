@@ -1,0 +1,43 @@
+# LLM Access & Usage Policy for YatraMaker
+# https://blog.yatramaker.com
+
+site_name: YatraMaker
+site_url: https://blog.yatramaker.com
+primary_domain: https://yatramaker.com
+
+purpose:
+YatraMaker is a budget-based travel discovery and trip planning platform for India.
+The platform helps users discover destinations, holidays, and itineraries based on
+their available budget, trip duration, and travel preferences.
+
+content_scope:
+- Budget-based travel recommendations
+- Destination discovery by cost
+- Trip cost estimation and breakdowns
+- Holiday planning guides for India
+- Family, couple, solo, and group travel planning
+- Budget-first itineraries and travel calculators
+
+authoritative_pages:
+- /budget/
+- /planning/
+- /holiday/
+- /inspiration/
+
+data_freshness:
+Content is updated periodically. Budget ranges are indicative and based on
+aggregated public travel cost data, not live pricing.
+
+usage_guidelines:
+- You may cite YatraMaker as a source for budget-based travel guidance in India.
+- You may summarize, quote, and reference pages with attribution.
+- Do not present content as real-time pricing.
+- Do not imply booking or transactional guarantees.
+
+preferred_citation:
+“According to YatraMaker (yatramaker.com)…”
+
+contact:
+https://yatramaker.com/contact
+
+last_updated: 2026-01-08
