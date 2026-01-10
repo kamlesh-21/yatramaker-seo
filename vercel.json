@@ -1,4 +1,22 @@
 {
   "cleanUrls": true,
-  "trailingSlash": false
+  "trailingSlash": false,
+  "rewrites": [
+    {
+      "source": "/budget/:path*",
+      "destination": "/budget/index.html"
+    },
+    {
+      "source": "/holiday/:path*",
+      "destination": "/holiday/index.html"
+    },
+    {
+      "source": "/planning/:path*",
+      "destination": "/planning/index.html"
+    },
+    {
+      "source": "/inspiration/:path*",
+      "destination": "/inspiration/index.html"
+    }
+  ]
 }
