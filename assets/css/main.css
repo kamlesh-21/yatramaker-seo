@@ -80,6 +80,7 @@ li {
 
 .cta:hover {
   background: #b83e12;          /* Darker hover for depth */
+  color: rgb(224, 222, 222);
 }
 
 footer {
