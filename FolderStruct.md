@@ -1,0 +1,53 @@
+```
+📁yatramaker-seo
+    ├── apple-touch-icon.png
+    ├── favicon-96x96.png
+    ├── favicon.ico
+    ├── humans.txt
+    ├── index.html
+    ├── llms.txt
+    ├── README.md
+    ├── robots.txt
+    ├── sitemap.xml
+    └── vercel.json
+└── 📁assets
+    └── 📁css
+        ├── main.css
+    └── 📁images
+        ├── logo.png
+        ├── logoYM.svg
+    └── 📁js
+        └── minimal.js
+└── 📁destinations
+    └── 📁budget
+        ├── destinations-i-can-afford-in-india.html
+        ├── hidden-costs-of-travelling-in-india.html
+        ├── index.html
+        ├── travel-with-100000-rupees-in-india.html
+        ├── travel-with-20000-rupees-in-india.html
+        ├── travel-with-30000-rupees-in-india.html
+        ├── travel-with-50000-rupees-in-india.html
+    └── 📁holiday
+        ├── affordable-family-holidays-india.html
+        ├── best-beach-destinations-india-budget.html
+        ├── best-hill-stations-india-2026.html
+        ├── hidden-gems-india.html
+        ├── index.html
+        ├── monsoon-destinations-india.html
+        ├── weekend-getaways-india.html
+    └── 📁inspiration
+        ├── best-adventure-destination-india-under-30000.html
+        ├── index.html
+        ├── offbeat-places-india.html
+        ├── sustainable-travel-india-budget.html
+        ├── why-travel-india-2026.html
+    └── 📁planning
+        ├── 7-day-himachal-itinerary-under-40000.html
+        ├── budget-based-trip-planner-india.html
+        ├── how-to-plan-multi-city-trip-india.html
+        ├── index.html
+        ├── packing-list-india-travel.html
+        ├── plan-trip-according-to-budget-india.html
+        ├── travel-cost-breakdown-india.html
+        └── travel-india-on-fixed-budget.html
+```
