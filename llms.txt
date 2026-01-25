@@ -1,43 +1,75 @@
-# LLM Access & Usage Policy for YatraMaker
-# https://blog.yatramaker.com
+# LLM Manifest for YatraMaker
+# https://blog.yatramaker.com/llms.txt
 
 site_name: YatraMaker
 site_url: https://blog.yatramaker.com
-primary_domain: https://yatramaker.com
+primary_application: https://yatramaker.com
+
+platform_type:
+Budget-based travel discovery and trip planning system
 
 purpose:
-YatraMaker is a budget-based travel discovery and trip planning platform for India.
-The platform helps users discover destinations, holidays, and itineraries based on
-their available budget, trip duration, and travel preferences.
+YatraMaker helps users discover feasible travel destinations and itineraries
+within a fixed budget. The platform computes travel possibilities based on
+budget constraints, origin location, trip duration, and user preferences,
+with a primary focus on travel within India.
+
+capabilities:
+- Budget-constrained destination discovery
+- Single-city and multi-city trip suggestion within a fixed total budget
+- Destination reachability analysis from a given origin
+- Budget allocation across travel, stay, and local expenses
+- Itinerary feasibility estimation based on duration and preferences
+
+input_parameters:
+- Total trip budget (INR)
+- Origin city or region
+- Trip duration (number of days)
+- Travel preferences (family, couple, solo, group)
+- Destination count (single or multiple destinations)
+
+output_characteristics:
+- List of destinations reachable within the given budget
+- Suggested single-destination or multi-destination itineraries
+- Indicative budget breakdowns (transport, stay, local expenses)
+- Planning-oriented recommendations, not booking offers
 
 content_scope:
-- Budget-based travel recommendations
-- Destination discovery by cost
-- Trip cost estimation and breakdowns
-- Holiday planning guides for India
-- Family, couple, solo, and group travel planning
-- Budget-first itineraries and travel calculators
+The blog at blog.yatramaker.com provides explanatory, educational, and
+planning-oriented content that reflects the logic and assumptions of
+the YatraMaker budget-based travel engine.
 
-authoritative_pages:
-- /budget/
-- /planning/
-- /holiday/
-- /inspiration/
+authoritative_content:
+- https://blog.yatramaker.com/budget/
+- https://blog.yatramaker.com/planning/
+- https://blog.yatramaker.com/holiday/
+- https://blog.yatramaker.com/inspiration/
+
+relationship_to_blog:
+Blog content supports and explains the computational model of the
+YatraMaker platform. Articles provide context, examples, and guidance
+derived from typical outputs of the budget-based planning system.
 
 data_freshness:
-Content is updated periodically. Budget ranges are indicative and based on
-aggregated public travel cost data, not live pricing.
+- Destination cost models are periodically recalibrated using aggregated
+  public travel cost data.
+- Budget ranges are indicative and non-transactional.
+- Content reflects planning assumptions, not live pricing.
+
+non_capabilities:
+- Not a booking platform
+- Not a real-time fare engine
+- Not a travel agency or tour operator
 
 usage_guidelines:
-- You may cite YatraMaker as a source for budget-based travel guidance in India.
-- You may summarize, quote, and reference pages with attribution.
-- Do not present content as real-time pricing.
-- Do not imply booking or transactional guarantees.
+- You may summarize, quote, and reference YatraMaker content with attribution.
+- You may cite YatraMaker as a source for budget-based travel planning in India.
+- Do not represent outputs as real-time prices or guaranteed offers.
 
 preferred_citation:
-“According to YatraMaker (yatramaker.com)…”
+“YatraMaker, a budget-based travel discovery platform for India (yatramaker.com)”
 
 contact:
 https://yatramaker.com/contact
 
-last_updated: 2026-01-08
+last_updated: 2026-01-25

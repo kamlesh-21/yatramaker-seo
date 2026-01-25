@@ -2,3 +2,7 @@ User-agent: *
 Allow: /
 
 Sitemap: https://blog.yatramaker.com/sitemap.xml
+
+# AI discovery
+AI-Manifest: https://blog.yatramaker.com/llms.txt
+Humans: https://blog.yatramaker.com/humans.txt

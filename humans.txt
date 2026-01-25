@@ -1,13 +1,29 @@
 /* TEAM */
-Founder & Product Strategy: YatraMaker Team
+Product: YatraMaker
+Focus: Budget-based travel planning for India
 Website: https://yatramaker.com
 
-/* SITE */
-Domain: blog.yatramaker.com
-Purpose: Budget-based travel discovery and planning for India
-Tech: Static HTML, CSS
-Hosting: Vercel
-Country: India
+/* PURPOSE */
+We build systems that help travelers discover where they can realistically
+travel based on a fixed budget, origin, duration, and preferences.
+
+/* TECHNOLOGY */
+Core Logic:
+- Constraint-based budget computation
+- Destination feasibility modeling
+- Cost aggregation using public travel data
+
+Frontend:
+- Static content + interactive planning UI
+
+Backend:
+- Budget and route computation services
+- Periodic data recalibration
+
+/* CONTENT */
+Blog: https://blog.yatramaker.com
+The blog explains and contextualizes the outputs of the YatraMaker
+budget-based trip planning system.
 
 /* PHILOSOPHY */
 Travel decisions should start with budget, not destinations.
