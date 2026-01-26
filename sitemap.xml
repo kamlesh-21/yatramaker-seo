@@ -1,190 +1,54 @@
-<!--
-This sitemap covers content supporting YatraMaker’s
-budget-based travel discovery and trip planning platform.
--->
-
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- This sitemap covers content supporting YatraMaker's budget-based travel discovery and trip planning platform. -->
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <!-- Root -->
   <url>
     <loc>https://blog.yatramaker.com/</loc>
-    <lastmod>2026-01-10</lastmod>
+    <lastmod>2026-01-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
 
   <!-- Budget Pillar -->
   <url>
-    <loc>https://blog.yatramaker.com/budget/</loc>
-    <lastmod>2026-01-10</lastmod>
+    <loc>https://blog.yatramaker.com/destinations/budget/</loc>
+    <lastmod>2026-01-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://blog.yatramaker.com/budget/destinations-i-can-afford-in-india.html</loc>
-    <lastmod>2026-01-10</lastmod>
+    <loc>https://blog.yatramaker.com/destinations/budget/destinations-i-can-afford-in-india.html</loc>
+    <lastmod>2026-01-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://blog.yatramaker.com/budget/hidden-costs-of-travelling-in-india.html</loc>
-    <lastmod>2026-01-10</lastmod>
+    <loc>https://blog.yatramaker.com/destinations/budget/hidden-costs-of-travelling-in-india.html</loc>
+    <lastmod>2026-01-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://blog.yatramaker.com/budget/india-trip-cost-calculator-destinations.html</loc>
-    <lastmod>2026-01-10</lastmod>
+    <loc>https://blog.yatramaker.com/destinations/budget/travel-with-100000-rupees-in-india.html</loc>
+    <lastmod>2026-01-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://blog.yatramaker.com/budget/travel-with-100000-rupees-in-india.html</loc>
-    <lastmod>2026-01-10</lastmod>
+    <loc>https://blog.yatramaker.com/destinations/budget/travel-with-20000-rupees-in-india.html</loc>
+    <lastmod>2026-01-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://blog.yatramaker.com/budget/travel-with-20000-rupees-in-india.html</loc>
-    <lastmod>2026-01-10</lastmod>
+    <loc>https://blog.yatramaker.com/destinations/budget/travel-with-30000-rupees-in-india.html</loc>
+    <lastmod>2026-01-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://blog.yatramaker.com/budget/travel-with-30000-rupees-in-india.html</loc>
-    <lastmod>2026-01-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://blog.yatramaker.com/budget/travel-with-50000-rupees-in-india.html</loc>
-    <lastmod>2026-01-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <!-- Holiday Pillar -->
-  <url>
-    <loc>https://blog.yatramaker.com/holiday/</loc>
-    <lastmod>2026-01-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://blog.yatramaker.com/holiday/affordable-family-holidays-india.html</loc>
-    <lastmod>2026-01-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://blog.yatramaker.com/holiday/best-beach-destinations-india-budget.html</loc>
-    <lastmod>2026-01-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://blog.yatramaker.com/holiday/best-hill-stations-india-2026.html</loc>
-    <lastmod>2026-01-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://blog.yatramaker.com/holiday/hidden-gems-india.html</loc>
-    <lastmod>2026-01-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://blog.yatramaker.com/holiday/monsoon-destinations-india.html</loc>
-    <lastmod>2026-01-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://blog.yatramaker.com/holiday/weekend-getaways-india.html</loc>
-    <lastmod>2026-01-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <!-- Inspiration Pillar -->
-  <url>
-    <loc>https://blog.yatramaker.com/inspiration/</loc>
-    <lastmod>2026-01-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://blog.yatramaker.com/inspiration/best-adventure-destination-india-under-30000.html</loc>
-    <lastmod>2026-01-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://blog.yatramaker.com/inspiration/offbeat-places-india.html</loc>
-    <lastmod>2026-01-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://blog.yatramaker.com/inspiration/sustainable-travel-india-budget.html</loc>
-    <lastmod>2026-01-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://blog.yatramaker.com/inspiration/why-travel-india-2026.html</loc>
-    <lastmod>2026-01-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <!-- Planning Pillar -->
-  <url>
-    <loc>https://blog.yatramaker.com/planning/</loc>
-    <lastmod>2026-01-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://blog.yatramaker.com/planning/7-day-himachal-itinerary-under-40000.html</loc>
-    <lastmod>2026-01-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://blog.yatramaker.com/planning/budget-based-trip-planner-india.html</loc>
-    <lastmod>2026-01-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://blog.yatramaker.com/planning/how-to-plan-multi-city-trip-india.html</loc>
-    <lastmod>2026-01-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://blog.yatramaker.com/planning/packing-list-india-travel.html</loc>
-    <lastmod>2026-01-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://blog.yatramaker.com/planning/plan-trip-according-to-budget-india.html</loc>
-    <lastmod>2026-01-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://blog.yatramaker.com/planning/travel-cost-breakdown-india.html</loc>
-    <lastmod>2026-01-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://blog.yatramaker.com/planning/travel-india-on-fixed-budget.html</loc>
-    <lastmod>2026-01-10</lastmod>
+    <loc>https://blog.yatramaker.com/destinations/budget/travel-with-50000-rupees-in-india.html</loc>
+    <lastmod>2026-01-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -194,56 +58,48 @@ budget-based travel discovery and trip planning platform.
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-
   <url>
     <loc>https://blog.yatramaker.com/destinations/budget/mumbai-to-cherrapunjee-trip-under-48000.html</loc>
     <lastmod>2026-01-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-
   <url>
     <loc>https://blog.yatramaker.com/destinations/budget/mumbai-to-chitkul-trip-under-12000.html</loc>
     <lastmod>2026-01-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-
   <url>
     <loc>https://blog.yatramaker.com/destinations/budget/mumbai-to-courtallam-trip-under-12000.html</loc>
     <lastmod>2026-01-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-
   <url>
     <loc>https://blog.yatramaker.com/destinations/budget/mumbai-to-matheran-trip-under-12000.html</loc>
     <lastmod>2026-01-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-
   <url>
     <loc>https://blog.yatramaker.com/destinations/budget/patna-to-gangtok-trip-under-12000.html</loc>
     <lastmod>2026-01-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-
   <url>
     <loc>https://blog.yatramaker.com/destinations/budget/patna-to-yumthang-trip-under-34000.html</loc>
     <lastmod>2026-01-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-
   <url>
     <loc>https://blog.yatramaker.com/destinations/budget/patna-to-zuluk-trip-under-12000.html</loc>
     <lastmod>2026-01-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-
   <url>
     <loc>https://blog.yatramaker.com/destinations/budget/pune-to-bhimashankar-trip-under-22000.html</loc>
     <lastmod>2026-01-26</lastmod>
@@ -251,4 +107,129 @@ budget-based travel discovery and trip planning platform.
     <priority>0.8</priority>
   </url>
 
+  <!-- Holiday Pillar -->
+  <url>
+    <loc>https://blog.yatramaker.com/destinations/holiday/</loc>
+    <lastmod>2026-01-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://blog.yatramaker.com/destinations/holiday/affordable-family-holidays-india.html</loc>
+    <lastmod>2026-01-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://blog.yatramaker.com/destinations/holiday/best-beach-destinations-india-budget.html</loc>
+    <lastmod>2026-01-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://blog.yatramaker.com/destinations/holiday/best-hill-stations-india-2026.html</loc>
+    <lastmod>2026-01-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://blog.yatramaker.com/destinations/holiday/hidden-gems-india.html</loc>
+    <lastmod>2026-01-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://blog.yatramaker.com/destinations/holiday/monsoon-destinations-india.html</loc>
+    <lastmod>2026-01-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://blog.yatramaker.com/destinations/holiday/weekend-getaways-india.html</loc>
+    <lastmod>2026-01-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Inspiration Pillar -->
+  <url>
+    <loc>https://blog.yatramaker.com/destinations/inspiration/</loc>
+    <lastmod>2026-01-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://blog.yatramaker.com/destinations/inspiration/best-adventure-destination-india-under-30000.html</loc>
+    <lastmod>2026-01-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://blog.yatramaker.com/destinations/inspiration/offbeat-places-india.html</loc>
+    <lastmod>2026-01-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://blog.yatramaker.com/destinations/inspiration/sustainable-travel-india-budget.html</loc>
+    <lastmod>2026-01-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://blog.yatramaker.com/destinations/inspiration/why-travel-india-2026.html</loc>
+    <lastmod>2026-01-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Planning Pillar -->
+  <url>
+    <loc>https://blog.yatramaker.com/destinations/planning/</loc>
+    <lastmod>2026-01-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://blog.yatramaker.com/destinations/planning/7-day-himachal-itinerary-under-40000.html</loc>
+    <lastmod>2026-01-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://blog.yatramaker.com/destinations/planning/budget-based-trip-planner-india.html</loc>
+    <lastmod>2026-01-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://blog.yatramaker.com/destinations/planning/how-to-plan-multi-city-trip-india.html</loc>
+    <lastmod>2026-01-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://blog.yatramaker.com/destinations/planning/packing-list-india-travel.html</loc>
+    <lastmod>2026-01-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://blog.yatramaker.com/destinations/planning/plan-trip-according-to-budget-india.html</loc>
+    <lastmod>2026-01-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://blog.yatramaker.com/destinations/planning/travel-cost-breakdown-india.html</loc>
+    <lastmod>2026-01-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://blog.yatramaker.com/destinations/planning/travel-india-on-fixed-budget.html</loc>
+    <lastmod>2026-01-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
 </urlset>
