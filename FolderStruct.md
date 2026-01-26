@@ -23,10 +23,19 @@
         ├── destinations-i-can-afford-in-india.html
         ├── hidden-costs-of-travelling-in-india.html
         ├── index.html
+        ├── mumbai-to-bhadra-wildlife-sanctuary-trip-under-12000.html
+        ├── mumbai-to-cherrapunjee-trip-under-48000.html
+        ├── mumbai-to-chitkul-trip-under-12000.html
+        ├── mumbai-to-courtallam-trip-under-12000.html
+        ├── mumbai-to-matheran-trip-under-12000.html
+        ├── patna-to-gangtok-trip-under-12000.html
+        ├── patna-to-yumthang-trip-under-34000.html
+        ├── patna-to-zuluk-trip-under-12000.html
+        ├── pune-to-bhimashankar-trip-under-22000.html
         ├── travel-with-100000-rupees-in-india.html
         ├── travel-with-20000-rupees-in-india.html
         ├── travel-with-30000-rupees-in-india.html
-        ├── travel-with-50000-rupees-in-india.html
+        └── travel-with-50000-rupees-in-india.html
     └── 📁holiday
         ├── affordable-family-holidays-india.html
         ├── best-beach-destinations-india-budget.html
