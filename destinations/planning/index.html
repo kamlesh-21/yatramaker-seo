@@ -9,15 +9,76 @@
 
   <link rel="canonical" href="https://blog.yatramaker.com/destinations/planning/" />
   <link rel="stylesheet" href="/assets/css/main.css" />
+  <meta name="robots" content="index,follow" />
+  <meta name="theme-color" content="#d94b1a" />
   <link rel="icon" href="/favicon.ico" type="image/x-icon">
   <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+
+  <meta property="og:title" content="Trip Planning Guides for India | YatraMaker" />
+  <meta property="og:description" content="Budget, itinerary, and cost planning guides for realistic travel in India." />
+  <meta property="og:url" content="https://blog.yatramaker.com/destinations/planning/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="YatraMaker" />
+  <meta property="og:locale" content="en_IN" />
+  <meta property="og:image" content="https://blog.yatramaker.com/assets/images/logo.png" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Trip Planning Guides for India | YatraMaker" />
+  <meta name="twitter:description" content="Budget, itinerary, and cost planning guides for realistic travel in India." />
+  <meta name="twitter:image" content="https://blog.yatramaker.com/assets/images/logo.png" />
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "CollectionPage",
-    "name": "Trip Planning Guides for India",
-    "description": "Practical guides explaining how to plan trips in India based on budget, duration and cost structure."
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://yatramaker.com/#organization",
+        "name": "YatraMaker",
+        "url": "https://yatramaker.com",
+        "logo": "https://blog.yatramaker.com/assets/images/logo.png"
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://blog.yatramaker.com/#website",
+        "name": "YatraMaker Blog",
+        "url": "https://blog.yatramaker.com/",
+        "publisher": {
+          "@id": "https://yatramaker.com/#organization"
+        }
+      },
+      {
+        "@type": "CollectionPage",
+        "@id": "https://blog.yatramaker.com/destinations/planning/#webpage",
+        "name": "Trip Planning Guides for India",
+        "url": "https://blog.yatramaker.com/destinations/planning/",
+        "description": "Practical guides explaining how to plan trips in India based on budget, duration and cost structure.",
+        "isPartOf": {
+          "@id": "https://blog.yatramaker.com/#website"
+        },
+        "breadcrumb": {
+          "@id": "https://blog.yatramaker.com/destinations/planning/#breadcrumb"
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://blog.yatramaker.com/destinations/planning/#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://blog.yatramaker.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Trip Planning",
+            "item": "https://blog.yatramaker.com/destinations/planning/"
+          }
+        ]
+      }
+    ]
   }
   </script>
 </head>
@@ -34,6 +95,18 @@
 </header>
 
 <main>
+  <nav class="breadcrumbs" aria-label="Breadcrumb">
+    <a href="/">Home</a> / <span>Trip Planning</span>
+  </nav>
+
+  <nav class="toc" aria-label="On this page">
+    <h2>Explore</h2>
+    <ul>
+      <li><a href="#core-planning">Core planning guides</a></li>
+      <li><a href="#advanced-planning">Advanced planning</a></li>
+    </ul>
+  </nav>
+
   <section>
     <p>
       Planning travel in India is complex. Distances are large, costs fluctuate,
@@ -42,9 +115,13 @@
     <p>
       These guides focus on <strong>execution, not inspiration</strong>.
     </p>
+    <p>
+      Use them to build itineraries, understand travel costs, and plan multi-city routes
+      that stay within budget.
+    </p>
   </section>
 
-  <section>
+  <section id="core-planning">
     <h2>Core Planning Guides</h2>
     <ul>
       <li><a href="/destinations/planning/travel-india-on-fixed-budget.html">Travel India on a Fixed Budget</a></li>
@@ -54,7 +131,7 @@
     </ul>
   </section>
 
-  <section>
+  <section id="advanced-planning">
     <h2>Advanced Planning</h2>
     <ul>
       <li><a href="/destinations/planning/how-to-plan-multi-city-trip-india.html">How to Plan Multi-City Trips</a></li>
@@ -71,7 +148,7 @@
 </main>
 
 <footer>
-  <nav style="margin-bottom:1.5rem;">
+  <nav style="margin-bottom:1.5rem;" aria-label="Footer navigation">
     <a href="/">Home</a> ·
     <a href="/destinations/budget/">Budget Travel</a> ·
     <a href="/destinations/planning/">Trip Planning</a> ·

@@ -9,15 +9,76 @@
 
   <link rel="canonical" href="https://blog.yatramaker.com/destinations/holiday/" />
   <link rel="stylesheet" href="/assets/css/main.css" />
+  <meta name="robots" content="index,follow" />
+  <meta name="theme-color" content="#d94b1a" />
   <link rel="icon" href="/favicon.ico" type="image/x-icon">
   <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+
+  <meta property="og:title" content="Holiday Destinations in India | YatraMaker" />
+  <meta property="og:description" content="Find beaches, hill stations, weekend getaways, and family holidays in India with budget clarity." />
+  <meta property="og:url" content="https://blog.yatramaker.com/destinations/holiday/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="YatraMaker" />
+  <meta property="og:locale" content="en_IN" />
+  <meta property="og:image" content="https://blog.yatramaker.com/assets/images/logo.png" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Holiday Destinations in India | YatraMaker" />
+  <meta name="twitter:description" content="Find beaches, hill stations, weekend getaways, and family holidays in India with budget clarity." />
+  <meta name="twitter:image" content="https://blog.yatramaker.com/assets/images/logo.png" />
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "CollectionPage",
-    "name": "Holiday Destinations in India",
-    "description": "Destination-focused holiday guides across India with realistic budget ranges."
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://yatramaker.com/#organization",
+        "name": "YatraMaker",
+        "url": "https://yatramaker.com",
+        "logo": "https://blog.yatramaker.com/assets/images/logo.png"
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://blog.yatramaker.com/#website",
+        "name": "YatraMaker Blog",
+        "url": "https://blog.yatramaker.com/",
+        "publisher": {
+          "@id": "https://yatramaker.com/#organization"
+        }
+      },
+      {
+        "@type": "CollectionPage",
+        "@id": "https://blog.yatramaker.com/destinations/holiday/#webpage",
+        "name": "Holiday Destinations in India",
+        "url": "https://blog.yatramaker.com/destinations/holiday/",
+        "description": "Destination-focused holiday guides across India with realistic budget ranges.",
+        "isPartOf": {
+          "@id": "https://blog.yatramaker.com/#website"
+        },
+        "breadcrumb": {
+          "@id": "https://blog.yatramaker.com/destinations/holiday/#breadcrumb"
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://blog.yatramaker.com/destinations/holiday/#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://blog.yatramaker.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Holiday Destinations",
+            "item": "https://blog.yatramaker.com/destinations/holiday/"
+          }
+        ]
+      }
+    ]
   }
   </script>
 </head>
@@ -33,9 +94,22 @@
   </header>
 
   <main>
-    <p>Whether you're looking for a relaxing beach escape, a refreshing hill station, or a cultural adventure, YatraMaker helps you discover destinations that fit your budget and preferences perfectly.</p>
+    <nav class="breadcrumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> / <span>Holiday Destinations</span>
+    </nav>
 
-  <section>
+    <nav class="toc" aria-label="On this page">
+      <h2>Explore</h2>
+      <ul>
+        <li><a href="#travel-styles">Explore by travel style</a></li>
+        <li><a href="#why-yatramaker">Why choose your holiday with YatraMaker</a></li>
+      </ul>
+    </nav>
+
+    <p>Whether you're looking for a relaxing beach escape, a refreshing hill station, or a cultural adventure, YatraMaker helps you discover destinations that fit your budget and preferences perfectly.</p>
+    <p>Find family holidays, honeymoon ideas, weekend getaways, and seasonal trips with realistic cost ranges.</p>
+
+  <section id="travel-styles">
     <h2>Explore by Travel Style</h2>
     <ul>
       <li><a href="/destinations/holiday/weekend-getaways-india.html">Weekend Getaways</a></li>
@@ -47,12 +121,14 @@
     </ul>
   </section>
 
+    <section id="why-yatramaker">
     <h2>Why Choose Your Holiday with YatraMaker?</h2>
     <ul>
       <li>Budget-first: We start with your budget, not the destination</li>
       <li>Full transparency: Real cost breakdowns for travel, stay, food & activities</li>
       <li>Personalized: Filter by preferences (beach, hills, family, solo)</li>
     </ul>
+    </section>
 
     <p style="text-align:center; margin-top:3rem;">
       <a href="https://yatramaker.com/" class="cta">Find Your Perfect Holiday Destination Now →</a>
@@ -60,7 +136,7 @@
   </main>
 
 <footer>
-  <nav style="margin-bottom:1.5rem;">
+  <nav style="margin-bottom:1.5rem;" aria-label="Footer navigation">
     <a href="/">Home</a> ·
     <a href="/destinations/budget/">Budget Travel</a> ·
     <a href="/destinations/planning/">Trip Planning</a> ·

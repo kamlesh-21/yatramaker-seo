@@ -18,6 +18,47 @@ main {
   margin: auto;
 }
 
+.eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 0.85rem;
+  color: #8a4a32;
+  margin-bottom: 0.5rem;
+}
+
+.breadcrumbs {
+  font-size: 0.95rem;
+  margin: 0.5rem 0 1.5rem;
+  color: #6b4b3e;
+}
+
+.breadcrumbs a {
+  color: #6b4b3e;
+  text-decoration: underline;
+}
+
+.toc {
+  background: #fff3eb;
+  border: 1px solid #ffd1c2;
+  border-radius: 10px;
+  padding: 16px 20px;
+  margin: 1.5rem 0 2rem;
+}
+
+.toc h2 {
+  margin: 0 0 0.75rem;
+  font-size: 1.3rem;
+}
+
+.toc ul {
+  margin: 0.75rem 0 0;
+  padding-left: 1.2rem;
+}
+
+.muted {
+  color: #666;
+}
+
 header {
   text-align: center;
   margin: 2rem 0;

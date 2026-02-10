@@ -3,10 +3,12 @@
 <head>
   <meta charset="UTF-8" />
   <title>Budget-Based Travel Discovery in India | YatraMaker</title>
-  <meta name="description" content="Discover where you can travel in India based on your budget. YatraMaker helps you find destinations, holidays, and itineraries according to how much you can spend." />
+  <meta name="description" content="Discover where you can travel in India based on your budget. YatraMaker helps you find destinations, holidays, itineraries, and realistic cost breakdowns for budget travel across India." />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="canonical" href="https://blog.yatramaker.com/" />
   <link rel="stylesheet" href="/assets/css/main.css" />
+  <meta name="robots" content="index,follow" />
+  <meta name="theme-color" content="#d94b1a" />
 
   <link rel="alternate" type="text/plain" href="/llms.txt" title="LLM Manifest">
   <link rel="author" href="/humans.txt">
@@ -14,6 +16,7 @@
   <meta name="application-name" content="YatraMaker">
   <meta name="subject" content="Budget-based travel discovery and trip planning">
   <meta name="publisher" content="YatraMaker">
+  <meta name="author" content="YatraMaker">
   <meta name="verification" content="f89eb64219dbb62f27a2b75bc19fa0da" />
 
   <!-- Favicon (place files in root) -->
@@ -23,22 +26,89 @@
 
   <!-- Open Graph -->
   <meta property="og:title" content="Budget-Based Travel Discovery in India | YatraMaker" />
-  <meta property="og:description" content="Find travel destinations in India you can afford. Budget-first trip discovery and planning." />
+  <meta property="og:description" content="Find travel destinations in India you can afford. Budget-first trip discovery, itineraries, and cost breakdowns." />
   <meta property="og:url" content="https://blog.yatramaker.com/" />
   <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="YatraMaker" />
+  <meta property="og:locale" content="en_IN" />
+  <meta property="og:image" content="https://blog.yatramaker.com/assets/images/logo.png" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Budget-Based Travel Discovery in India | YatraMaker" />
+  <meta name="twitter:description" content="Budget-first travel discovery, itineraries, and cost breakdowns for India." />
+  <meta name="twitter:image" content="https://blog.yatramaker.com/assets/images/logo.png" />
 
   <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "WebSite",
-      "name": "YatraMaker Blog",
-      "url": "https://blog.yatramaker.com/",
-      "description": "Budget-based travel discovery guides for India. Find destinations, holidays and itineraries based on your budget.",
-      "publisher": {
-        "@type": "Organization",
-        "name": "YatraMaker",
-        "url": "https://yatramaker.com"
-      }
+      "@graph": [
+        {
+          "@type": "Organization",
+          "@id": "https://yatramaker.com/#organization",
+          "name": "YatraMaker",
+          "url": "https://yatramaker.com",
+          "logo": "https://blog.yatramaker.com/assets/images/logo.png"
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://blog.yatramaker.com/#website",
+          "name": "YatraMaker Blog",
+          "url": "https://blog.yatramaker.com/",
+          "description": "Budget-based travel discovery guides for India. Find destinations, holidays and itineraries based on your budget.",
+          "publisher": {
+            "@id": "https://yatramaker.com/#organization"
+          },
+          "potentialAction": {
+            "@type": "SearchAction",
+            "target": "https://yatramaker.com/search?budget={budget}&origin={origin}&destination={destination}",
+            "query-input": [
+              "required name=budget",
+              "required name=origin",
+              "required name=destination"
+            ]
+          }
+        },
+        {
+          "@type": "WebPage",
+          "@id": "https://blog.yatramaker.com/#webpage",
+          "url": "https://blog.yatramaker.com/",
+          "name": "Budget-Based Travel Discovery in India | YatraMaker",
+          "description": "Discover where you can travel in India based on your budget. YatraMaker helps you find destinations, holidays, itineraries, and realistic cost breakdowns.",
+          "isPartOf": {
+            "@id": "https://blog.yatramaker.com/#website"
+          },
+          "breadcrumb": {
+            "@id": "https://blog.yatramaker.com/#breadcrumb"
+          }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://blog.yatramaker.com/#breadcrumb",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://blog.yatramaker.com/"
+            }
+          ]
+        },
+        {
+          "@type": "SiteNavigationElement",
+          "name": [
+            "Budget Travel",
+            "Trip Planning",
+            "Holiday Destinations",
+            "Travel Inspiration"
+          ],
+          "url": [
+            "https://blog.yatramaker.com/destinations/budget/",
+            "https://blog.yatramaker.com/destinations/planning/",
+            "https://blog.yatramaker.com/destinations/holiday/",
+            "https://blog.yatramaker.com/destinations/inspiration/"
+          ]
+        }
+      ]
     }
   </script>
 
@@ -76,11 +146,24 @@
         <img src="/assets/images/logo.png" alt="YatraMaker" style="max-width:180px; height:auto;">
       </a>
     </div>
+      <p class="eyebrow">Budget Travel India</p>
       <h1>Budget-Based Travel Discovery for India</h1>
       <p>Discover destinations, holidays, and trips in India based on what you can actually afford.</p>
     </header>
 
-    <section>
+    <nav class="toc" aria-label="On this page">
+      <h2>Explore</h2>
+      <ul>
+        <li><a href="#how-it-works">How budget-first travel works</a></li>
+        <li><a href="#travel-styles">Travel styles and budgets</a></li>
+        <li><a href="#what-makes-us-different">What makes YatraMaker different</a></li>
+        <li><a href="#budget-trips">Real budget trips you can take</a></li>
+        <li><a href="#travel-guides">Travel guides by intent</a></li>
+        <li><a href="#faq">Frequently asked questions</a></li>
+      </ul>
+    </nav>
+
+    <section id="how-it-works">
       <h2>How YatraMaker Works</h2>
       <p>
         Unlike traditional travel websites that start with destinations, YatraMaker starts with your
@@ -93,41 +176,56 @@
       </p>
     </section>
 
+    <section id="travel-styles">
+      <h2>Travel Styles and Budget Ranges</h2>
+      <p>
+        Whether you are planning a family holiday, couple trip, solo travel escape, group tour, weekend getaway,
+        pilgrimage, beach break, hill station stay, wildlife retreat, or adventure travel, the budget-first
+        approach helps you choose destinations that fit real costs.
+      </p>
+      <ul>
+        <li>Budget travel in India: INR 10,000 - INR 25,000</li>
+        <li>Mid-range trips: INR 25,000 - INR 50,000</li>
+        <li>Comfort trips: INR 50,000 - INR 1,00,000</li>
+        <li>Multi-city tours and longer holidays: INR 1,00,000+</li>
+      </ul>
+    </section>
+
     <!-- NEW SECTION: Richness & Methodology (top-level view) -->
-<section>
+    <section id="what-makes-us-different">
       <h2>What Makes YatraMaker Different</h2>
       <p>
-        We don’t just suggest places — we build <strong>complete, realistic plans</strong> starting with your budget. Every recommendation includes:
+        We do not just suggest places — we build <strong>complete, realistic plans</strong> starting with your budget. Every recommendation includes:
       </p>
 
       <ul>
-        <li><strong>Full cost transparency</strong> — To & fro travel, accommodation (proper bedding for everyone), daily travel to key scenic locations, meals, activities, attractions, and buffer</li>
-        <li><strong>Single-City Journeys</strong> — Choose from Hundreds of fully budgeted, realistic destinations tailored exactly to your total spend</li>
-        <li><strong>Multi-City Tours</strong> — Travel multiple destinations with optimized routes, smart travel modes, and comfortable pacing — all within budget</li>        
-        <li><strong>Hidden gems & tradeoffs</strong> — Lesser-known spots + honest pros/cons</li>
-        <li><strong>Dynamic pricing & flexibility</strong> — See instant impact of adding a day, upgrading stay, or changing travel mode</li>
+        <li><strong>Full cost transparency</strong> — To-and-fro travel, accommodation (proper bedding for everyone), daily travel to key scenic locations, meals, activities, attractions, and buffer</li>
+        <li><strong>Single-city journeys</strong> — Choose from hundreds of fully budgeted, realistic destinations tailored exactly to your total spend</li>
+        <li><strong>Multi-city tours</strong> — Travel multiple destinations with optimized routes, smart travel modes, and comfortable pacing — all within budget</li>
+        <li><strong>Hidden gems and tradeoffs</strong> — Lesser-known spots plus honest pros and cons</li>
+        <li><strong>Dynamic pricing and flexibility</strong> — See instant impact of adding a day, upgrading stay, or changing travel mode</li>
       </ul>
 
       <h3>Example of a Budget-Fit Itinerary</h3>
       <div style="background: #fff; padding: 1.5rem; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
-        <h4>South Circuit: Tirupati · Mahabalipuram · Pondicherry</h4>
+        <h4>South Circuit: Tirupati - Mahabalipuram - Pondicherry</h4>
         <p class="muted" style="color:#666; font-style:italic; margin:0.5rem 0;">
-          5 days · temples, heritage, coastal relaxation
+          5 days - temples, heritage, coastal relaxation
         </p>
 
         <div style="display:grid; grid-template-columns:1fr 1fr; gap:2rem; margin-top:1.5rem;">
           <div>
             <h5>Indicative Budget Range</h5>
-            <p style="font-weight:bold; font-size:1.2rem;">₹28,000 – ₹32,000 per person</p>
+            <p style="font-weight:bold; font-size:1.2rem;">INR 28,000 - INR 32,000 per person</p>
 
             <h5>Cost Components</h5>
             <ul style="padding-left:1.2rem; margin:0.5rem 0;">
-              <li>To & fro travel: ₹15k–₹17k</li>
-              <li>Accommodation (proper bedding): ₹4k–₹6k</li>
-              <li>Local travel to key spots: ₹3k–₹4k</li>
-              <li>Meals & daily expenses: ₹3k–₹4k</li>
-              <li>Activities & attractions: ₹2k–₹3k</li>
-              <li>Buffer for extras: ₹1k–₹2k</li>
+              <li>To-and-fro travel: INR 15k-17k</li>
+              <li>Accommodation (proper bedding): INR 4k-6k</li>
+              <li>Local travel to key spots: INR 3k-4k</li>
+              <li>Meals and daily expenses: INR 3k-4k</li>
+              <li>Activities and attractions: INR 2k-3k</li>
+              <li>Buffer for extras: INR 1k-2k</li>
             </ul>
           </div>
 
@@ -144,65 +242,59 @@
       </div>
 
       <p style="text-align:center; margin-top:2rem; font-style:italic; color:#555;">
-        This is just one real output from our engine — your trip will be 100% tailored to your budget.
+        This is just one real output from our engine — your trip will be tailored to your budget.
       </p>
     </section>
 
-    <section>
+    <section id="budget-trips">
       <h2>Real Trips You Can Take Within Your Budget</h2>
 
       <ul>
     <li>
       <a href="/destinations/budget/mumbai-to-cherrapunjee-trip-under-48000.html">
-        Mumbai to Cherrapunjee Trip Under ₹48,000
+        Mumbai to Cherrapunjee Trip Under INR 48,000
       </a>
     </li>
             <li>
       <a href="/destinations/budget/mumbai-to-chitkul-trip-under-12000.html">
-        Mumbai to Chitkul Trip Under ₹12,000
+        Mumbai to Chitkul Trip Under INR 12,000
       </a>
     </li>
         <li>
       <a href="/destinations/budget/patna-to-zuluk-trip-under-12000.html">
-        Patna to Zuluk Trip Under ₹12,000
+        Patna to Zuluk Trip Under INR 12,000
       </a>
     </li>
     <li>
       <a href="/destinations/budget/pune-to-bhimashankar-trip-under-22000.html">
-        Pune to Bhimashankar Trip Under ₹22,000
+        Pune to Bhimashankar Trip Under INR 22,000
       </a>
     </li>
     <li>
       <a href="/destinations/budget/mumbai-to-bhadra-wildlife-sanctuary-trip-under-12000.html">
-        Mumbai to Bhadra Wildlife Sanctuary Under ₹12,000
+        Mumbai to Bhadra Wildlife Sanctuary Under INR 12,000
+      </a>
+    </li>
+    <li>
+      <a href="/destinations/budget/mumbai-to-matheran-trip-under-12000.html">
+        Mumbai to Matheran Trip Under INR 12,000
       </a>
     </li>
       </ul>
     </section>
 
 
-    <section>
+    <section id="travel-guides">
       <h2>Explore Travel Guides by Intent</h2>
       <ul>
-        <li><a href="/destinations/budget/">Budget-Based Travel Guides</a> – Where can you travel with ₹20,000, ₹30,000, ₹50,000 and more</li>
-        <li><a href="/destinations/planning/">Trip Planning Guides</a> – Cost breakdowns, itineraries, and calculators</li>
-        <li><a href="/destinations/holiday/">Holiday Destinations</a> – Beaches, hills, weekend getaways by budget</li>
-        <li><a href="/destinations/inspiration/">Travel Inspiration</a> – Ideas, offbeat places, and experiences</li>
+        <li><a href="/destinations/budget/">Budget-Based Travel Guides</a> — Where can you travel with INR 20,000, INR 30,000, INR 50,000 and more</li>
+        <li><a href="/destinations/planning/">Trip Planning Guides</a> — Cost breakdowns, itineraries, and planning checklists</li>
+        <li><a href="/destinations/holiday/">Holiday Destinations</a> — Beaches, hill stations, weekend getaways, and family holidays</li>
+        <li><a href="/destinations/inspiration/">Travel Inspiration</a> — Ideas, offbeat places, adventure, and sustainable travel</li>
       </ul>
     </section>
 
-    <h2>Real Budget Trips</h2>
-      <ul>
-        <li><a href="/destinations/budget/mumbai-to-matheran-trip-under-12000.html">
-          Mumbai to Matheran Budget Trip
-        </a></li>
-        <li><a href="/destinations/budget/pune-to-bhimashankar-trip-under-22000.html">
-          Pune to Bhimashankar Budget Trip
-        </a></li>
-              </ul>
-
-
-    <section>
+    <section id="faq">
       <h2>Frequently Asked Questions</h2>
       <h3>Is YatraMaker a budget travel site?</h3>
       <p>No. YatraMaker is a <strong>budget-based travel discovery platform</strong>. We help you decide
@@ -219,7 +311,7 @@
   </main>
   
   <footer>
-    <nav style="margin-bottom:1.5rem;">
+    <nav style="margin-bottom:1.5rem;" aria-label="Footer navigation">
       <a href="/">Home</a> ·
       <a href="/destinations/budget/">Budget Travel</a> ·
       <a href="/destinations/planning/">Trip Planning</a> ·
