@@ -155,3 +155,78 @@ a.secondary-booking {
   text-decoration: underline;
   font-size: 0.95rem;
 }
+
+/* ============================= */
+/* Booking Section */
+/* ============================= */
+
+.booking-section {
+  margin: 4rem 0;
+  padding: 3rem 2rem;
+  background: linear-gradient(135deg, #fff3eb, #ffffff);
+  border: 1px solid #ffd1c2;
+  border-radius: 18px;
+  box-shadow: 0 12px 30px rgba(0,0,0,0.05);
+  text-align: center;
+}
+
+.booking-section h2 {
+  margin-bottom: 1rem;
+}
+
+.booking-section p.lead {
+  max-width: 620px;
+  margin: 0 auto 2.5rem;
+  color: #555;
+}
+
+.booking-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.8rem;
+}
+
+.booking-card {
+  background: #ffffff;
+  border-radius: 14px;
+  padding: 2rem 1.5rem;
+  border: 1px solid #ffe1d6;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  color: inherit;
+}
+
+.booking-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 14px 30px rgba(0,0,0,0.08);
+}
+
+.booking-icon {
+  width: 48px;
+  height: 48px;
+  margin: 0 auto 1rem;
+  display: block;
+}
+
+.booking-card h3 {
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+  color: #2d2d2d;
+}
+
+.booking-card p {
+  font-size: 0.95rem;
+  color: #666;
+  margin-bottom: 1.2rem;
+}
+
+.booking-link {
+  font-weight: bold;
+  color: #d94b1a;
+}
+
+.booking-disclaimer {
+  font-size: 0.85rem;
+  margin-top: 2rem;
+  color: #777;
+}
